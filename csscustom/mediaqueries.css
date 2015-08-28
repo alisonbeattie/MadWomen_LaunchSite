@@ -7,7 +7,6 @@
 @media screen and (max-width: 900px) {
 
   .nav-logo {
-    width: 50%;
     margin-top: 9px;
     margin-left: 5px;
   }
@@ -28,6 +27,10 @@
 @media screen and (max-width: 768px) {
 
   /* BLOCK TO SINGLE COL */
+
+  .wee-mark {
+    margin-right: -15px;
+  }
 
   .stats-hold {
     height: 250px;
@@ -61,6 +64,7 @@
 
 /* SMALL <600*/
 @media screen and (max-width: 600px) {
+
 
   .intro-header {
     margin-top: -43px;

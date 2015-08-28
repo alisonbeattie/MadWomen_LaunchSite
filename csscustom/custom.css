@@ -140,7 +140,6 @@ li {
 }
 
 .nav-logo {
-  width: 230px;
   margin-top: 6px;
   margin-left: -11px;
 }
@@ -206,10 +205,17 @@ li {
   text-align: center;
 }
 
+.top-push {
+  position: relative;
+  z-index: 500;
+}
+
 .header-img {
   width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:200;
 }
 
 
@@ -270,11 +276,19 @@ li {
 .right-block-sm {
   background-repeat: repeat;
   height: 300px;
-  /*min-width: 300px;*/
+  padding: 0;
 }
 
 .block-img {
+  width: 100%;
+}
+
+#img-hackingtheissues {
+  background-image: url(../refs/header-image.jpg);
+  background-size: cover;
+  width: 100%;
   height: 100%;
+  display: block;
 }
 
 .block-cap {
@@ -470,6 +484,7 @@ li {
 
   .portfolio img {
     max-width: 100%;
+    width: 100%;
     position: relative;
   }
 
