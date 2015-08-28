@@ -19,6 +19,10 @@
     margin-top: -43px;
   }
 
+  .wee-mark {
+    margin-top: -70px;
+  }
+
 
 }
 
@@ -123,6 +127,10 @@
 
   .contact-callout-btn {
     margin-top: 62px;
+  }
+
+  .circle-icon {
+    margin: 0 8px 0 8px;
   }
 
 }
