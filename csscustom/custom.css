@@ -603,10 +603,13 @@ li {
 
 .form-control {
   display: inline;
-  width: 30%;
   height: 45px;
   border-radius: 0px;
   margin-right: 10px;
+}
+
+.mc-field-group {
+  display: inline;
 }
 
 .footer-form {
